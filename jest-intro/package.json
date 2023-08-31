@@ -1,0 +1,18 @@
+{
+	"name": "jest-intro",
+	"version": "1.0.0",
+	"license": "MIT",
+	"main": "index.js",
+	"jest": {
+		"verbose": true,
+		"collectCoverage": true,
+		"coverageReporters": ["json", "text", "html"],
+		"displayName": "CUSTOM TEST"
+	},
+	"scripts": {
+		"test": "jest"
+	},
+	"devDependencies": {
+		"jest": "^29.6.4"
+	}
+}
