@@ -76,14 +76,14 @@
 - sum.test.js
 
 ### code in sum.js
-```jsx
+```js
 function sum( a, b ) {
 	return a + b
 }
 ```
 
 ### test in sum.test.js
-```jsx
+```js
 // "test suite" = collection of tests
 describe( 'My Feature', () => {
 	

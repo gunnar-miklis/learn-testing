@@ -6,7 +6,7 @@ Jest is a popular test framework for JavaScript.
 ### test() and it()
 > _"[...] Furthermore, we use the `test` keyword to start a new test case definition. The `it` keyword is an alias for the `test` keyword. Personally, I like to use `it`, which allows for more natural language flow of writing tests. To give an example:"_
 
-```
+```js
 describe('Beverage()', () => {
    it('should be delicious', () => {
       expect(myBeverage.isDelicious).toBeTruthy();
@@ -17,7 +17,7 @@ describe('Beverage()', () => {
 ### beforeEach() and afterEach()
 It's important to "prepare" and "clean up" tests.
 Both  functions will run before or after all test, but only once.
-```
+```js
 describe( 'database testing', () => {
 
 	beforeEach( () => {
@@ -43,7 +43,7 @@ describe( 'database testing', () => {
 - Isolate, control and inspect specific parts of the code.
 - It ensures tests are consistent and predictable. 
 - A mock doesn't do anything itself. A mock is a simulated function that records or logs it's own behaviour.
-```
+```js
 // create a mock
 const mockFn = jest.fn();	// Mock Functions
 const mockM = jest.mock();	// Mock Modules
@@ -65,12 +65,12 @@ mockFN.mock.results[0].value
 ## SETUP
 
 #### Install JEST.
-```
+```bash
 $ yarn add --D jest
 ```
 
 #### JEST config possible in `package.json` file.
-```
+```bash
 "jest": {
 	"verbose": true,
 	"collectCoverage": true,
@@ -86,12 +86,12 @@ $ yarn add --D jest
 ```
 
 #### Execute JEST once.
-```
+```bash
 $ yarn test
 ```
 
 #### Continously testing (run JEST on file change).
-```
+```bash
 $ yarn run test --watchAll
 ```
 
