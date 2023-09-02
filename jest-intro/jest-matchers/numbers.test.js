@@ -9,4 +9,4 @@ test( 'use different matchers to test numbers', () => {
 	expect( num ).toBeTruthy();
 	expect( num ).not.toBeFalsy();
 	expect( num ).not.toBeNull();
-})
+} );

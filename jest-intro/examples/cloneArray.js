@@ -1,3 +1,3 @@
 module.exports = function cloneArray( array ) {
-	return [... array];
-}
+	return [ ...array ];
+};
