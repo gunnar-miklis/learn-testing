@@ -70,7 +70,7 @@ $ yarn add --D jest
 ```
 
 #### JEST config possible in `package.json` file.
-```bash
+```js
 "jest": {
 	"verbose": true,
 	"collectCoverage": true,
