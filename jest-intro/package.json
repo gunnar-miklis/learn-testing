@@ -6,13 +6,19 @@
 	"jest": {
 		"verbose": true,
 		"collectCoverage": true,
-		"coverageReporters": ["json", "text", "html"],
+		"coverageReporters": [
+			"json",
+			"text",
+			"html"
+		],
 		"displayName": "CUSTOM TEST"
 	},
 	"scripts": {
 		"test": "jest"
 	},
 	"devDependencies": {
+		"eslint": ">=5.16.0",
+		"eslint-config-google": "^0.14.0",
 		"jest": "^29.6.4"
 	}
 }
